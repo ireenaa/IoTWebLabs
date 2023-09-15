@@ -1,0 +1,37 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    height: 313px;
+    background-color: #222F33;
+
+}
+
+
+.about__title {
+    font-family: Merriweather;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 60px;
+    margin-bottom: 11px;
+}
+
+
+.about__paragraph {
+
+    font-family: Rubik;
+    font-size: 14px;
+    margin: 0;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    display: flex;
+    opacity: 70%;
+    
+}
+
+.about__paragraph-1{
+    margin-right: 43px;
+}

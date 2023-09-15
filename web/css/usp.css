@@ -1,0 +1,36 @@
+.usp h1 {
+    font-family: Merriweather;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #222F33;
+
+}
+
+.usp p {
+    font-family: Rubik;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #646D70;
+
+}
+
+.usp__container{
+    display: flex;
+    margin-right: 100px;
+    margin-top: 89px;
+    margin-bottom: 90px;
+}
+
+.usp__image-house {
+    margin-right: 75px; 
+}
+
+.column-1{
+    margin-right: 60px;
+}
