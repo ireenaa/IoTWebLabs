@@ -6,6 +6,7 @@
     letter-spacing: 0px;
     text-align: left;
     color: #222F33;
+    margin: 0;
 
 }
 
@@ -20,17 +21,54 @@
 
 }
 
-.usp__container{
+.usp__container {
     display: flex;
-    margin-right: 100px;
-    margin-top: 89px;
-    margin-bottom: 90px;
+    padding-top: 89px;
+    padding-bottom: 90px;
+    justify-content: space-between;
+
 }
 
-.usp__image-house {
-    margin-right: 75px; 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 155px);
+    gap: 37px;
+    grid-column-gap: 60px;
+    margin-top: 21px;
+
+
+}
+.usp__image{
+    width: 100%;
+    padding-top: -50px;
+
 }
 
-.column-1{
-    margin-right: 60px;
+.usp p {
+    margin: 0;
+    margin-top: 4px;
+}
+
+
+@media (max-width: 768px) {
+
+    @media (max-width: 768px) {
+        .usp__container {
+            flex-direction: column; 
+        }
+    
+        .grid-container {
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 20px;
+        }
+    
+        .usp p {
+            order: 2;
+        }
+    
+    
+        .usp__container img {
+            order: 1;
+        }
+    }
 }
