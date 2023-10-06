@@ -26,11 +26,30 @@
                         <li class="header__nav-item"><a href="">Huren</a></li>
                         <li class="header__nav-item"><a href="">Nieuws</a></li>
                         <li>
-                            <button class="header__contact">Contact</button>
+                            <a href="" class="header__contact">Contact</a>
                         </li>
                     </ul>
                 </nav>
+                <nav>
+                    <article>
+                        <div class="burger__div">
 
+                            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+                            <div class="menu__box">
+                                <ul>
+                                    <li><a class="button" href="">Modellen</a></li>
+                                    <li><a class="button" href="">Kopen</a></li>
+                                    <li><a class="button" href="">Nieuws</a></li>
+                                    <li><a class="button" href="">Huren</a></li>
+                                </ul>
+
+                                <label for="menu-toggle" class="close-menu-button">✕</label>
+                            </div>
+                        </div>
+                    </article>
+                </nav>
             </header>
 
         </div>
@@ -45,8 +64,12 @@
                     </h1>
                 </div>
                 <button class="hero__button">
-                    <img class="hero__button__img" src="images/hero-button.svg" alt="Button">
-                    <p class="button__text">Watch the movie</p>
+                    <a href="https://www.youtube.com/watch?v=Z6tO3P7UX2s" target="_blank">
+                        <img class="hero__button__img" src="images/hero-button.svg" alt="Button">
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=Z6tO3P7UX2s" target="_blank">
+                        <p class="button__text">Watch the movie</p>
+                    </a>
                 </button>
             </div>
         </div>
@@ -64,7 +87,8 @@
                     flexible, insulates well and builds quickly and efficiently.
                 </p>
 
-                <button class="intro__button"> <img src="/images/intro-button.svg" alt="Button"></button>
+                
+                <a href="" class="intro__button">Read more</a>
             </div>
             <div>
                 <img src="images/intro-image.svg" alt="Tree" class="intro__image">
@@ -73,95 +97,90 @@
         </div>
 
     </section>
+
     <section class="about">
         <div class="container about__container">
-            <h1 class="about__title">Innovative</h1>
-            <div class="about__paragraph">
-                <p class="about__paragraph-1">Our goal is to continuously further develop and innovate <br> the
-                    EcoCabins,
-                    so that the EcoCabins are
-                    ultimately 100% <br>
-                    sustainable and circular. A condition for this is that the <br>
-                    EcoCabins remain affordable. With the help of the sun, the <br>
-                    wind and the best insulation you can enjoy.
-                </p>
-                <p class="about__paragraph-2">
-                    All EcoCabins have a high insulation value, are produced <br>
-                    with sustainable and / or natural materials where possible <br>
-                    and have the 'round corners' as a striking external <br>
-                    characteristic, made possible by the specific use of <br>
-                    materials. The advantages of building.
-                </p>
-
+            <div class="about__inner">
+                <div class="paragraph-1">
+                    <h1 class="about__title">Innovative</h1>
+                    <p>Our goal is to continuously further develop and innovate <br> the EcoCabins,
+                        so that the EcoCabins are ultimately 100% <br> sustainable and circular. A condition for this is
+                        that
+                        the <br> EcoCabins remain affordable. With the help of the sun, the <br> wind and the best
+                        insulation
+                        you can enjoy.
+                    </p>
+                </div>
+                <div class="paragraph-2">
+                    <p>
+                        All EcoCabins have a high insulation value, are produced <br>
+                        with sustainable and / or natural materials where possible <br>
+                        and have the 'round corners' as a striking external <br>
+                        characteristic, made possible by the specific use of <br>
+                        materials. The advantages of building.
+                    </p>
+                </div>
             </div>
         </div>
-
-
     </section>
+
+
     <section class="usp">
         <div class="container usp__container">
-            <img src="/images/usp-image.svg" alt="House" class="usp__image-house">
+            <div class="usp__image">
+                <img src="/images/usp-image.svg" alt="House">
+            </div>
 
-            <div class="column-1">
-                <h1>Wood</h1>
-                <p>
-                    De draagconstructies van <br>
-                    EcoCabins bestaan uit <br>
-                    hout. Hout is duurzaam en.
-                </p>
-                <h1>Workmanship</h1>
-                <p>
-                    De draagconstructies van <br>
-                    EcoCabins bestaan uit <br>
-                    hout. Hout is duurzaam en.
-                </p>
-                <h1>Steel base</h1>
-                <p>
-                    Het stalen onderstel is <br>
-                    sterk zijn en heeft de <br>
-                    benodigde stijfheid die
-                </p>
+
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h1>Wood</h1>
+                    <p>De draagconstructies van EcoCabins bestaan uit hout. Hout is duurzaam en.</p>
+                </div>
+                <div class="grid-item">
+                    <h1>Workmanship</h1>
+                    <p>De draagconstructies van EcoCabins bestaan uit hout. Hout is duurzaam en.</p>
+                </div>
+                <div class="grid-item">
+                    <h1>Steel base</h1>
+                    <p>Het stalen onderstel is sterk zijn en heeft de benodigde stijfheid die</p>
+                </div>
+                <div class="grid-item">
+                    <h1>Glass wool</h1>
+                    <p>De combinatie van glaswol met een houtskelet constructie geeft een.</p>
+                </div>
+                <div class="grid-item">
+                    <h1>Triple glass</h1>
+                    <p>De combinatie van glaswol met een houtskelet constructie geeft een.</p>
+                </div>
+                <div class="grid-item">
+                    <h1>Infrared floor</h1>
+                    <p>De vloer wordt opgewarmd middels opgewekte warmte uit eigen zonne-energie.</p>
+                </div>
             </div>
-            <div class="column-2">
-                <h1>Glass wool </h1>
-                <p>
-                    De combinatie van glaswol <br>
-                    met een houtskelet <br>
-                    constructie geeft een.
-                </p>
-                <h1>Triple glass</h1>
-                <p>
-                    De combinatie van glaswol <br>
-                    met een houtskelet <br>
-                    constructie geeft een.
-                </p>
-                <h1>Infrared floor</h1>
-                <p>
-                    De vloer wordt opgewarmd <br>
-                    middels opgewekte warmte <br>
-                    uit eigen zonne-energie.
-                </p>
-            </div>
-        </div>
-        </div>
-        </div>
+
 
     </section>
     <section class="footer">
         <div class=" container footer__container">
             <div class="footer__contact">
-                <p>info@eco-cabins.com</p>
+                <a href="mailto:info@eco-cabins.com">info@eco-cabins.com</a>
             </div>
             <div class="footer__logo">
-                <img src="images/logo.svg" alt="Logo">
+                <a href=""><img src="images/logo.svg" alt="Logo"></a>
             </div>
             <div class="footer__info">
-                <p class="footer__cookies">Cookies</p>
-                <p>Privacybeleid</p>
+                <a href="">
+                    <p class="footer__cookies">Cookies</p>
+                </a>
+                <a href="">
+                    <p class="footer__privacybeleid">Privacybeleid</p>
+                </a>
             </div>
         </div>
 
     </section>
+
 
 </body>
 

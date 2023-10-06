@@ -1,11 +1,11 @@
-.hero{
+.hero {
     background-image: url(../images/hero-image.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1305px;
 }
 
-.hero__inner{
+.hero__inner {
     padding-top: 185px;
     padding-bottom: 233px;
     margin: 0;
@@ -16,18 +16,36 @@
 }
 
 .hero__title {
-font-family: Rubik;
-font-size: 16px;
-font-weight: 500;
-color: #fff;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+
 }
 
-.hero__paragraph{
-font-family: Merriweather;
-font-size: 30px;
-font-weight: 900;
-line-height: normal;
-color: #fff;
+.button__text,
+.hero__button {
+    font-family: Rubik;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #fff;
+    transition: transform 0.2s ease;
+}
+
+.hero__button:hover,
+.button__text:hover {
+    transform: scale(1.1);
+}
+
+.hero__paragraph {
+    font-family: Merriweather;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: normal;
+    color: #fff;
 
 }
 
@@ -39,16 +57,34 @@ color: #fff;
     align-items: center;
 }
 
-.button__text{
-font-family: Rubik;
-font-size: 12px;
-font-weight: 500;
-line-height: 14px;
-letter-spacing: 0px;
-text-align: left;
-color:#fff;
+.button__text {
+    font-family: Rubik;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #fff;
 }
 
-.text{
-    margin-left: 80px;
+@media (max-width: 768px) {
+    .hero__paragraph {
+        text-align: left;
+
+    }
+
+    .hero__title {
+        text-align: left;
+    }
+
+    .hero__inner {
+        flex-direction: column;
+        padding-top: 170px;
+
+
+    }
+
+    .hero__button {
+        align-items: left;
+    }
 }
