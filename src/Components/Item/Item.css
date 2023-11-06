@@ -1,0 +1,56 @@
+.items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+
+}
+.item{
+    margin-bottom: 25px;
+    overflow: hidden;
+    transition: transform 500ms ease;
+}
+.item img{
+    width: 300px;
+    height: 300px;
+}
+.item:hover{
+    transform: scale(1.05);
+}
+.item:not(:last-child) {
+    margin-right: 20px; 
+}
+
+.item-prices{
+    font-family: DM Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color: #A18A68;
+margin-left: 10px;
+margin-bottom: 20px;
+margin-top: 10px;
+}
+
+.item-name{
+    font-family: DM Sans;
+font-size: 20px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 10px;
+margin-top: 10px;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-top: 200px;
+    /* width: 1240px; */
+    
+}
