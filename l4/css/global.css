@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: 'DM Sans';
+    color: #000;
+}
+.container{
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    display: block;
+    text-decoration: none;
+
+}
+
+    
+      
+    
+    
