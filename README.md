@@ -25,10 +25,10 @@
 Посилання на вітку [https://github.com/ireenaa/IoTWebLabs/tree/lab_8]
 ***
 ### Лабораторна робота №9
-Посилання на вітку []
+Посилання на вітку [https://github.com/ireenaa/IoTWebLabs/tree/lab_9]
 ***
 ### Лабораторна робота №10 
-Посилання на вітку []
+Посилання на вітку [https://github.com/ireenaa/IoTWebLabs/tree/lab_10]
 ***
 ### Лабораторна робота №11
 Посилання на вітку []
