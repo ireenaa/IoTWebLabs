@@ -1,0 +1,126 @@
+
+.cart-container {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding-left: 120px;
+  padding-right: 120px;
+  align-items: center;
+
+
+}
+
+
+.cart-item {
+  display: flex;
+   
+  align-items: center; 
+  border: #A18A68;
+  
+}
+
+.product-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.info hr{
+  width: 700px;
+  border: none;
+  border-radius: 10px;
+  height: 2px;
+  background: #c7c7c7 ;
+}
+
+
+.product-name {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.info{
+  padding-left: 40px;
+}
+
+.product-controls {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  
+}
+
+
+.decrement-button,
+.increment-button {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  border: none;
+  background-color: #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.product-count {
+  font-size: 16px;
+}
+
+
+.product-price {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: -5px;
+ 
+}
+
+
+.large-button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  background-color: #A18A68;
+  color: white;
+  font-family: DM Sans;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  margin-right: 30px;
+
+}
+
+.large-button a{
+  text-decoration: none;
+  color: #f0f0f0;
+}
+
+
+.total-price {
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: bold;
+  font-family: DM Sans;
+}
+.CarImage{
+  height: 150px;
+  width: 150px;
+}
+.delete-button{
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  background-color: #89211a;
+  color: white;
+  font-family: DM Sans;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  margin-right: 70px;
+  margin-bottom: 20px;
+}

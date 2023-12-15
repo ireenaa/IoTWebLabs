@@ -1,0 +1,91 @@
+.form {
+    padding-top: 40px;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 90px;
+    background: white;
+  }
+  
+  .fields {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .field {
+    margin-top: 10px;
+    display: block;
+  }
+  
+  .field label {
+    width: 230px;
+    text-align: left;
+    margin-right: 20px;
+    margin-bottom: -5px;
+    font-weight: 550;
+    font-size: 14px;
+    color: rgb(48, 48, 48);
+    margin-top: -5px;
+  }
+  
+  .field input {
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 14px;
+    font-family: DM Sans;
+    width: 300px;
+    border-radius: 3px;
+    margin-bottom: -8px;
+
+  }
+  
+  .submit {
+    width: 300px;
+    height: 53px;
+    font-size: 20px;
+    font-family: DM Sans;
+    font-weight: 600;
+    background: black;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  .form h1 {
+    font-family: DM Sans;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 43px;
+    text-align: center;
+    margin: 20px 0px;
+  }
+  .error-message{
+    margin-top: 5px;
+    color: red;
+    font-size: 14px;
+  }
+
+  .go-back{
+    padding: 10px 20px;
+    width: 150px;
+font-family: DM Sans;
+font-size: 16px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: center;
+border: 1px solid #000;
+background: #fff;
+border-radius: 4px;
+cursor: pointer;
+margin-top: 30px;
+margin-left: 50px;
+
+  }
